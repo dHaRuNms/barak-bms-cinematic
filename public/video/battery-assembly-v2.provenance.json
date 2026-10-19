@@ -1,0 +1,11 @@
+{
+  "asset": "battery-assembly-v2.mp4",
+  "origin": "Locally authored procedural Three.js battery assembly; no external footage or product claim.",
+  "source": "src/scene/batteryScene.ts",
+  "renderer": "scripts/render-hero-film.mjs",
+  "durationSeconds": 12,
+  "frameRate": 24,
+  "dimensions": [1080, 960],
+  "audio": false,
+  "purpose": "Silent looping engineering concept film. Native video playback avoids requiring WebGL on visitor devices."
+}

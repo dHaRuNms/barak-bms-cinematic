@@ -1,0 +1,34 @@
+{
+  "generationMode": "built-in image_gen.imagegen",
+  "subject": "Conceptual exploded battery intelligence assembly; not actual product photography",
+  "promptFile": "docs/hero-engineering-prompt.txt",
+  "sourceResolution": {
+    "width": 1672,
+    "height": 941
+  },
+  "note": "1920px variant is resampled from 1672px native generation; 960px is downsampled.",
+  "alt": "Conceptual exploded battery assembly with copper circuits, cylindrical cells and a black finned cooling enclosure.",
+  "assets": [
+    {
+      "path": "public/images/hero-engineering.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2129091,
+      "promptStorage": "embedded PNG tEXt"
+    },
+    {
+      "path": "public/images/hero-engineering.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 210738,
+      "promptStorage": "public/images/hero-engineering.webp.json"
+    },
+    {
+      "path": "public/images/hero-engineering-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 68958,
+      "promptStorage": "public/images/hero-engineering-960.webp.json"
+    }
+  ]
+}

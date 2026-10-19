@@ -1,0 +1,44 @@
+{
+  "name": "barak-production",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/prerender.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:e2e": "playwright test",
+    "assets:models": "node scripts/generate-models.mjs && node scripts/compress-models.mjs",
+    "assets:film": "node scripts/render-journey-film.mjs",
+    "assets:film:mobile": "node scripts/render-journey-film.mjs --mobile"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@react-three/postprocessing": "^2.19.1",
+    "autoprefixer": "^10.6.1",
+    "framer-motion": "^14.2.0",
+    "gsap": "^3.15.0",
+    "lucide-react": "0.475.0",
+    "postcss": "^8.5.30",
+    "postprocessing": "^6.39.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "^3.4.19",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "@playwright/test": "1.57.0",
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "4.3.4",
+    "meshoptimizer": "^1.3.0",
+    "typescript": "5.6.3",
+    "vite": "6.4.3"
+  }
+}

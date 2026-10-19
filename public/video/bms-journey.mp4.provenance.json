@@ -1,0 +1,14 @@
+{
+  "type": "Original rendered film",
+  "source": "src/journey/World.tsx + src/journey/models.ts + src/journey/timeline.ts",
+  "script": "scripts/render-journey-film.mjs",
+  "duration": 24,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "frames": 576,
+  "bytes": 3352405,
+  "camera": "One continuous deterministic camera path; no stock footage and no scene cuts",
+  "codec": "H.264 / yuv420p / keyframe interval 12 / faststart",
+  "created": "2026-10-18T07:09:50.496Z"
+}

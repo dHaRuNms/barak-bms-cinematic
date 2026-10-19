@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T14:58:02.080912+00:00",
+  "title": "Design System: Barak BMS journey",
+  "extensions": {
+    "scope": {
+      "designDocument": "src/journey/DESIGN.md",
+      "surfaces": [
+        "homepage",
+        "interactive simulated dashboard"
+      ],
+      "companyDesignDocument": "DESIGN.md"
+    },
+    "colorMeta": {
+      "signal": {
+        "role": "primary",
+        "displayName": "Mint signal",
+        "tonalRamp": [
+          "oklch(15% 0.1019 165.61)",
+          "oklch(25% 0.1019 165.61)",
+          "oklch(35% 0.1019 165.61)",
+          "oklch(45% 0.1019 165.61)",
+          "oklch(60% 0.1019 165.61)",
+          "oklch(75% 0.1019 165.61)",
+          "oklch(85% 0.1019 165.61)",
+          "oklch(95% 0.1019 165.61)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Matte black",
+        "tonalRamp": [
+          "oklch(15% 0.0088 210.36)",
+          "oklch(25% 0.0088 210.36)",
+          "oklch(35% 0.0088 210.36)",
+          "oklch(45% 0.0088 210.36)",
+          "oklch(60% 0.0088 210.36)",
+          "oklch(75% 0.0088 210.36)",
+          "oklch(85% 0.0088 210.36)",
+          "oklch(95% 0.0088 210.36)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Cool white",
+        "tonalRamp": [
+          "oklch(15% 0.0100 164.87)",
+          "oklch(25% 0.0100 164.87)",
+          "oklch(35% 0.0100 164.87)",
+          "oklch(45% 0.0100 164.87)",
+          "oklch(60% 0.0100 164.87)",
+          "oklch(75% 0.0100 164.87)",
+          "oklch(85% 0.0100 164.87)",
+          "oklch(95% 0.0100 164.87)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted sage",
+        "tonalRamp": [
+          "oklch(15% 0.0208 180.89)",
+          "oklch(25% 0.0208 180.89)",
+          "oklch(35% 0.0208 180.89)",
+          "oklch(45% 0.0208 180.89)",
+          "oklch(60% 0.0208 180.89)",
+          "oklch(75% 0.0208 180.89)",
+          "oklch(85% 0.0208 180.89)",
+          "oklch(95% 0.0208 180.89)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Cool structural rule",
+        "tonalRamp": [
+          "oklch(15% 0.0208 196.21)",
+          "oklch(25% 0.0208 196.21)",
+          "oklch(35% 0.0208 196.21)",
+          "oklch(45% 0.0208 196.21)",
+          "oklch(60% 0.0208 196.21)",
+          "oklch(75% 0.0208 196.21)",
+          "oklch(85% 0.0208 196.21)",
+          "oklch(95% 0.0208 196.21)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Cool surface",
+        "tonalRamp": [
+          "oklch(15% 0.0159 203.13)",
+          "oklch(25% 0.0159 203.13)",
+          "oklch(35% 0.0159 203.13)",
+          "oklch(45% 0.0159 203.13)",
+          "oklch(60% 0.0159 203.13)",
+          "oklch(75% 0.0159 203.13)",
+          "oklch(85% 0.0159 203.13)",
+          "oklch(95% 0.0159 203.13)"
+        ]
+      },
+      "dashboard": {
+        "role": "neutral",
+        "displayName": "Dashboard shell",
+        "tonalRamp": [
+          "oklch(15% 0.0151 211.36)",
+          "oklch(25% 0.0151 211.36)",
+          "oklch(35% 0.0151 211.36)",
+          "oklch(45% 0.0151 211.36)",
+          "oklch(60% 0.0151 211.36)",
+          "oklch(75% 0.0151 211.36)",
+          "oklch(85% 0.0151 211.36)",
+          "oklch(95% 0.0151 211.36)"
+        ]
+      },
+      "widget": {
+        "role": "neutral",
+        "displayName": "Widget surface",
+        "tonalRamp": [
+          "oklch(15% 0.0185 208.00)",
+          "oklch(25% 0.0185 208.00)",
+          "oklch(35% 0.0185 208.00)",
+          "oklch(45% 0.0185 208.00)",
+          "oklch(60% 0.0185 208.00)",
+          "oklch(75% 0.0185 208.00)",
+          "oklch(85% 0.0185 208.00)",
+          "oklch(95% 0.0185 208.00)"
+        ]
+      },
+      "warning": {
+        "role": "status",
+        "displayName": "Demo warning",
+        "tonalRamp": [
+          "oklch(15% 0.0816 65.62)",
+          "oklch(25% 0.0816 65.62)",
+          "oklch(35% 0.0816 65.62)",
+          "oklch(45% 0.0816 65.62)",
+          "oklch(60% 0.0816 65.62)",
+          "oklch(75% 0.0816 65.62)",
+          "oklch(85% 0.0816 65.62)",
+          "oklch(95% 0.0816 65.62)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Mint action",
+        "tonalRamp": [
+          "oklch(15% 0.0889 166.80)",
+          "oklch(25% 0.0889 166.80)",
+          "oklch(35% 0.0889 166.80)",
+          "oklch(45% 0.0889 166.80)",
+          "oklch(60% 0.0889 166.80)",
+          "oklch(75% 0.0889 166.80)",
+          "oklch(85% 0.0889 166.80)",
+          "oklch(95% 0.0889 166.80)"
+        ]
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "Action ink",
+        "tonalRamp": [
+          "oklch(15% 0.0297 165.12)",
+          "oklch(25% 0.0297 165.12)",
+          "oklch(35% 0.0297 165.12)",
+          "oklch(45% 0.0297 165.12)",
+          "oklch(60% 0.0297 165.12)",
+          "oklch(75% 0.0297 165.12)",
+          "oklch(85% 0.0297 165.12)",
+          "oklch(95% 0.0297 165.12)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action hover",
+        "tonalRamp": [
+          "oklch(15% 0.0689 164.82)",
+          "oklch(25% 0.0689 164.82)",
+          "oklch(35% 0.0689 164.82)",
+          "oklch(45% 0.0689 164.82)",
+          "oklch(60% 0.0689 164.82)",
+          "oklch(75% 0.0689 164.82)",
+          "oklch(85% 0.0689 164.82)",
+          "oklch(95% 0.0689 164.82)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Keyboard focus",
+        "tonalRamp": [
+          "oklch(15% 0.0903 168.36)",
+          "oklch(25% 0.0903 168.36)",
+          "oklch(35% 0.0903 168.36)",
+          "oklch(45% 0.0903 168.36)",
+          "oklch(60% 0.0903 168.36)",
+          "oklch(75% 0.0903 168.36)",
+          "oklch(85% 0.0903 168.36)",
+          "oklch(95% 0.0903 168.36)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Story display",
+        "purpose": "Opening HTML statement."
+      },
+      "headline": {
+        "displayName": "Chapter headline",
+        "purpose": "Later story chapters."
+      },
+      "metric": {
+        "displayName": "Metric value",
+        "purpose": "Dashboard values with tabular numerals."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dashboard-ambient",
+        "value": "0 35px 90px #0005",
+        "purpose": "Broad depth beneath the dashboard shell."
+      }
+    ],
+    "motion": [
+      {
+        "name": "scroll-scrub",
+        "value": "0.65s",
+        "purpose": "GSAP normalized scroll smoothing before native video seeking."
+      },
+      {
+        "name": "chapter-copy",
+        "value": "0.3s",
+        "purpose": "HTML chapter opacity and vertical transition."
+      },
+      {
+        "name": "film-reveal",
+        "value": "1.1s",
+        "purpose": "Film container opacity when loaded."
+      },
+      {
+        "name": "phone-placement",
+        "value": "translateY(calc(var(--phone-stage, 0)*24%))",
+        "purpose": "Continuous mobile phone-stage placement with smooth normalized progress."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1700px"
+      },
+      {
+        "name": "compact",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ],
+    "focus": {
+      "value": "2px solid #a7f8d9",
+      "offset": "5px",
+      "cellSelectorOffset": "3px"
+    },
+    "media": {
+      "durationSeconds": 24,
+      "encodedFps": 24,
+      "runtime": "Paused native video seeking; HTML overlays and dashboard.",
+      "fallback": "Seven locally rendered still frames.",
+      "portraitTopMask": "linear-gradient(to bottom,transparent 0,#000 10%,#000 100%)"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Square mint link to a dashboard or contact destination.",
+      "html": "<a class=\"ds-primary\" href=\"#dashboard\">Explore the dashboard \u2197</a>",
+      "css": ".ds-primary{font-family:Manrope,sans-serif;font-weight:400;display:inline-flex;align-items:center;min-height:50px;padding:17px 22px;background:#a3f1d1;color:#10231b;font-size:12px;text-decoration:none}.ds-primary:hover{background:#c5ffe4}.ds-primary:focus-visible{outline:2px solid #a7f8d9;outline-offset:5px;}"
+    },
+    {
+      "name": "Still-image control",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Outlined alternative to the film.",
+      "html": "<button class=\"ds-outline\">Still images</button>",
+      "css": ".ds-outline{font-family:Manrope,sans-serif;font-weight:400;background:transparent;color:#e9f1ed;border:1px solid #41524e;padding:9px 12px;min-height:38px;font-size:11px;cursor:pointer}.ds-outline:hover{border-color:var(--signal,#9cf6d0);color:var(--signal,#9cf6d0)}.ds-outline:focus-visible{outline:2px solid #a7f8d9;outline-offset:5px;}"
+    },
+    {
+      "name": "Chapter navigation",
+      "kind": "nav",
+      "refersTo": "button-outline",
+      "description": "Seven numbered chapter controls; current step is mint.",
+      "html": "<nav class=\"ds-chapters\" aria-label=\"Story chapters\"><button aria-current=\"step\">01 Board</button><button>02 Connection</button><button>03 Pack</button></nav>",
+      "css": ".ds-chapters{display:flex;gap:25px;background:#070c0d;padding:12px}.ds-chapters button{font-family:Manrope,sans-serif;font-weight:400;border:0;border-top:1px solid #35423e;padding:10px 0;min-height:45px;background:transparent;color:#849b93;font-size:10px;cursor:pointer}.ds-chapters button[aria-current]{color:var(--signal,#9cf6d0);border-color:var(--signal,#9cf6d0)}.ds-chapters button:hover{color:#e9f1ed}.ds-chapters button:focus-visible{outline:2px solid #a7f8d9;outline-offset:5px;}"
+    },
+    {
+      "name": "Simulated telemetry badge",
+      "kind": "chip",
+      "refersTo": "widget",
+      "description": "Persistent context for the local telemetry demo.",
+      "html": "<span class=\"ds-badge\"><i></i>Simulated telemetry</span>",
+      "css": ".ds-badge{font-family:Manrope,sans-serif;font-weight:400;display:inline-flex;gap:7px;align-items:center;color:var(--signal,#9cf6d0);font-size:10px;padding:12px;background:#0e181a}.ds-badge i{width:5px;height:5px;border-radius:50%;background:currentColor}"
+    },
+    {
+      "name": "Metric widget",
+      "kind": "card",
+      "refersTo": "widget",
+      "description": "Flat cool-toned data area with label, value and health text.",
+      "html": "<div class=\"ds-widget\"><span>State of health</span><strong>98.4<small>%</small></strong><p>Healthy pack</p></div>",
+      "css": ".ds-widget{font-family:Manrope,sans-serif;font-weight:400;background:#111e20;color:#e9f1ed;padding:24px;font-variant-numeric:tabular-nums}.ds-widget>span{font-size:11px;color:#b6c9bf}.ds-widget strong{display:block;font-size:44px;font-weight:400;letter-spacing:-.03em;margin-top:20px}.ds-widget small{font-size:22px;color:#9dafab;margin-left:3px}.ds-widget p{font-size:11px;color:var(--signal,#9cf6d0);margin:3px 0 0}"
+    },
+    {
+      "name": "History period",
+      "kind": "button",
+      "refersTo": "period-selected",
+      "description": "Compact pressed-state history range buttons.",
+      "html": "<div class=\"ds-period\" aria-label=\"History period\"><button aria-pressed=\"true\">24h</button><button aria-pressed=\"false\">7d</button><button aria-pressed=\"false\">30d</button></div>",
+      "css": ".ds-period{display:flex;gap:3px;background:#111e20;padding:12px}.ds-period button{font-family:Manrope,sans-serif;font-weight:400;background:transparent;border:0;color:#9fb3aa;border-radius:3px;min-height:30px;min-width:32px;padding:4px 7px;font-size:10px;cursor:pointer}.ds-period button[aria-pressed=true]{background:#30483e;color:var(--signal,#9cf6d0)}.ds-period button:hover{color:var(--signal,#9cf6d0)}.ds-period button:focus-visible{outline:2px solid #a7f8d9;outline-offset:5px;}"
+    },
+    {
+      "name": "Cell selector",
+      "kind": "input",
+      "refersTo": "cell-select",
+      "description": "Native labeled selector for keyboard inspection of module cells.",
+      "html": "<label class=\"ds-cell\">Inspect a cell<select><option>Cell 14 \u00b7 3.309 V \u00b7 imbalance</option><option>Cell 15 \u00b7 3.283 V</option></select></label>",
+      "css": ".ds-cell{font-family:Manrope,sans-serif;font-weight:400;display:flex;align-items:center;justify-content:space-between;gap:15px;background:#111e20;padding:18px;color:#a8c0b4;font-size:10px}.ds-cell select{font-family:Manrope,sans-serif;font-weight:400;background:#172a25;color:#e4f5eb;border:1px solid #49685b;padding:10px;min-height:42px;max-width:210px;font-size:10px}.ds-cell select:hover{border-color:var(--signal,#9cf6d0)}.ds-cell select:focus-visible{outline:2px solid #a7f8d9;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Intelligence, from cell to system",
+    "overview": "Matte black space, green circuit-board materials, cyan rim light and restrained mint signals carry one battery system from its board to a fleet and a usable dashboard. Large HTML statements share the composition with an original rendered concept film; the interface becomes denser as the visitor reaches telemetry.",
+    "keyCharacteristics": [
+      "Large regular-weight Manrope statements and quiet navigation.",
+      "Mint signals over black and cool charcoal surfaces.",
+      "A reversible seven-stage film followed by working HTML telemetry.",
+      "Visible concept, development and simulated-data labels."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve the complete still-frame story and usable dashboard when motion or media is unavailable.",
+      "Do maintain legible HTML copy and continuous portrait fleet/phone framing.",
+      "Do retain concept, in-development, illustrative-capacity and simulated-data labels.",
+      "Do give selectable states text, semantic state and visible keyboard focus."
+    ],
+    "donts": [
+      "Don't present rendered concepts as production CAD or actual product photography.",
+      "Don't imply live vehicle connectivity, automatic contact delivery or certified device frame rates.",
+      "Don't apply the amber company palette to the cinematic homepage."
+    ]
+  }
+}
