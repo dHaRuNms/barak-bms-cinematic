@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dharunms.github.io/barak-bms-cinematic/sitemap.xml

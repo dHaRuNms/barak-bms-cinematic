@@ -1,0 +1,8 @@
+{
+  "origin": "Original rendered BMS journey film frame",
+  "source": "video/bms-journey.mp4",
+  "timeSeconds": 9.104166666666666,
+  "renderSource": "src/journey/World.tsx + src/journey/models.ts + src/journey/timeline.ts",
+  "script": "scripts/extract-journey-stills.mjs",
+  "type": "Authored concept geometry; no stock images or footage"
+}
